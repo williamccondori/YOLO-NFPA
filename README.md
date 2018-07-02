@@ -1,5 +1,5 @@
-# Yolo-v3 and Yolo-v2 for Windows and Linux
-### (neural network for object detection)
+# Yolo-v3 and Yolo-v2 for Windows and Linux (Prueba NFPA)
+### (Prueba de red neuronal YOLO para reconocer símbolos NFPA)
 
 [![CircleCI](https://circleci.com/gh/AlexeyAB/darknet.svg?style=svg)](https://circleci.com/gh/AlexeyAB/darknet)
 
@@ -14,7 +14,7 @@
 9. [How to mark bounded boxes of objects and create annotation files](#how-to-mark-bounded-boxes-of-objects-and-create-annotation-files)
 10. [Using Yolo9000](#using-yolo9000)
 11. [How to use Yolo as DLL](#how-to-use-yolo-as-dll)
-
+12. [Para este ejemplo](#prueba-ejemplo)
 
 
 |  ![Darknet Logo](http://pjreddie.com/media/files/darknet-black-small.png) | &nbsp; ![map_fps](https://hsto.org/webt/pw/zd/0j/pwzd0jb9g7znt_dbsyw9qzbnvti.jpeg) mAP (AP50) https://pjreddie.com/media/files/papers/YOLOv3.pdf |
@@ -505,3 +505,9 @@ public:
 #endif
 };
 ```
+### Prueba ejemplo:
+
+Ejeciutar:
+
+darknet.exe detector train cfg/obj.data cfg/yolo-obj.cfg darknet19_448.conv.23
+
