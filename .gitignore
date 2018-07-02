@@ -27,3 +27,5 @@ Thumbs.db
 # CMake #
 cmake-build-debug/
 CMakeLists.txt
+
+darknet19_448.conv.23
